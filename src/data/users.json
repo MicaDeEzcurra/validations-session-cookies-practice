@@ -1,20 +1,8 @@
 [
  {
   "id": 1,
-  "email": "gonzalo.zev@gmail.com",
-  "password": "$2a$10$RIUig7ChhKwZ1vu7bZX.6.Ao.qX/pG8Mio/FXHGg4UFWCCaWx8knq",
-  "image": "image-1590671650285.png"
- },
- {
-  "id": 2,
-  "email": "ale@ale.com",
-  "password": "$2a$10$mzBpS7Rb7sh5DkuArkdE4uvU5tEcWjoR.3Z4dFiXy0IcMMOdlWtU.",
-  "image": "image-1590671718694.png"
- },
- {
-  "id": 3,
-  "email": "lolo@dh.com",
-  "password": "$2a$10$q75NIRlopbaPYN9YRsIGxuoY0JVYHtnmIICYs23gTLU8z8XZ98Nv6",
-  "image": "image-1590761768940.png"
+  "email": "micaeladezcurra@gmail.com",
+  "password": "$2a$10$RfaIvLTj.z/hI.TZfgqK/uA/FY/qZtKfOrRsUN91gCCZBUGu6gZmC",
+  "image": "image-1592860108537.png"
  }
 ]

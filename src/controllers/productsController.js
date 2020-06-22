@@ -23,13 +23,13 @@ function nextId(){
 const controller = {
 	// Root - Show all products
 	root: (req, res) => {
-		// Do the magic
+
 		res.render('products', {products})
 	},
 
 	// Detail - Detail from one product
 	detail: (req, res) => {
-		// Do the magic
+
 		let product = products.find(function(product){
 			return product.id == req.params.productId
 		})
@@ -39,13 +39,13 @@ const controller = {
 
 	// Create - Form to create
 	create: (req, res) => {
-		// Do the magic
+
 		res.render('product-create-form');
 	},
 	
 	// Create -  Method to store
 	store: (req, res) => {
-		// Do the magic
+
 		let newProduct = {
 			id: nextId(),
 			name: req.body.name,
@@ -68,7 +68,7 @@ const controller = {
 
 	// Update - Form to edit
 	edit: (req, res) => {
-		// Do the magic
+
 		let product = products.find(function (product) {
 			return product.id == req.params.productId
 		})
@@ -76,7 +76,7 @@ const controller = {
 	},
 	// Update - Method to update
 	update: (req, res) => {
-		// Do the magic
+
 		let productosEditados = products.map( product => {
 			if(product.id == req.params.productId){
 				product.name = req.body.name;
@@ -99,7 +99,7 @@ const controller = {
 
 	// Delete - Delete one product from DB
 	destroy : (req, res) => {
-		// Do the magic
+
 		let productosNuevos = products.filter(function(product){
 			return product.id != req.params.id;
 		})
